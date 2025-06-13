@@ -15,9 +15,9 @@ user=`whoami`
 	exit
  fi
 #regex que hace match con los ESSID afectados
-pat0="^CLARO_[[:xdigit:]]{6}$"
-pat1="^TURBONETT_[[:xdigit:]]{6}$"
-pat2="^TURBONETT_[[:xdigit:]]{3}$"
+pat0="^CLARO1_[[:xdigit:]]{6}$"
+pat1="^CLARO2_[[:xdigit:]]{6}$"
+pat2="^TIGO_[[:xdigit:]]{3}$"
 pat3="^IBW_WIM*[[:xdigit:]]$"
 
 #obtenemos interfaz inalambrica y escaneamos
